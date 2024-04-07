@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67581F432BC28E0600A531A3 /* EShop_AUTHApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67581F422BC28E0600A531A3 /* EShop_AUTHApp.swift */; };
+		67581F452BC28E0600A531A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67581F442BC28E0600A531A3 /* ContentView.swift */; };
+		67581F472BC28E0800A531A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67581F462BC28E0800A531A3 /* Assets.xcassets */; };
+		67581F4B2BC28E0800A531A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67581F4A2BC28E0800A531A3 /* Preview Assets.xcassets */; };
+		67581F552BC28E0900A531A3 /* EShop_AUTHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67581F542BC28E0900A531A3 /* EShop_AUTHTests.swift */; };
+		67581F5F2BC28E0900A531A3 /* EShop_AUTHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67581F5E2BC28E0900A531A3 /* EShop_AUTHUITests.swift */; };
+		67581F612BC28E0900A531A3 /* EShop_AUTHUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67581F602BC28E0900A531A3 /* EShop_AUTHUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67581F512BC28E0900A531A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67581F372BC28E0600A531A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67581F3E2BC28E0600A531A3;
+			remoteInfo = "EShop AUTH";
+		};
+		67581F5B2BC28E0900A531A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67581F372BC28E0600A531A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67581F3E2BC28E0600A531A3;
+			remoteInfo = "EShop AUTH";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67581F3F2BC28E0600A531A3 /* EShop AUTH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EShop AUTH.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67581F422BC28E0600A531A3 /* EShop_AUTHApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EShop_AUTHApp.swift; sourceTree = "<group>"; };
+		67581F442BC28E0600A531A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		67581F462BC28E0800A531A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67581F482BC28E0800A531A3 /* EShop_AUTH.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EShop_AUTH.entitlements; sourceTree = "<group>"; };
+		67581F4A2BC28E0800A531A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67581F502BC28E0900A531A3 /* EShop AUTHTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EShop AUTHTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67581F542BC28E0900A531A3 /* EShop_AUTHTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EShop_AUTHTests.swift; sourceTree = "<group>"; };
+		67581F5A2BC28E0900A531A3 /* EShop AUTHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EShop AUTHUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67581F5E2BC28E0900A531A3 /* EShop_AUTHUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EShop_AUTHUITests.swift; sourceTree = "<group>"; };
+		67581F602BC28E0900A531A3 /* EShop_AUTHUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EShop_AUTHUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67581F3C2BC28E0600A531A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67581F4D2BC28E0900A531A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67581F572BC28E0900A531A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67581F362BC28E0600A531A3 = {
+			isa = PBXGroup;
+			children = (
+				67581F412BC28E0600A531A3 /* EShop AUTH */,
+				67581F532BC28E0900A531A3 /* EShop AUTHTests */,
+				67581F5D2BC28E0900A531A3 /* EShop AUTHUITests */,
+				67581F402BC28E0600A531A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67581F402BC28E0600A531A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67581F3F2BC28E0600A531A3 /* EShop AUTH.app */,
+				67581F502BC28E0900A531A3 /* EShop AUTHTests.xctest */,
+				67581F5A2BC28E0900A531A3 /* EShop AUTHUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67581F412BC28E0600A531A3 /* EShop AUTH */ = {
+			isa = PBXGroup;
+			children = (
+				67581F422BC28E0600A531A3 /* EShop_AUTHApp.swift */,
+				67581F442BC28E0600A531A3 /* ContentView.swift */,
+				67581F462BC28E0800A531A3 /* Assets.xcassets */,
+				67581F482BC28E0800A531A3 /* EShop_AUTH.entitlements */,
+				67581F492BC28E0800A531A3 /* Preview Content */,
+			);
+			path = "EShop AUTH";
+			sourceTree = "<group>";
+		};
+		67581F492BC28E0800A531A3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				67581F4A2BC28E0800A531A3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		67581F532BC28E0900A531A3 /* EShop AUTHTests */ = {
+			isa = PBXGroup;
+			children = (
+				67581F542BC28E0900A531A3 /* EShop_AUTHTests.swift */,
+			);
+			path = "EShop AUTHTests";
+			sourceTree = "<group>";
+		};
+		67581F5D2BC28E0900A531A3 /* EShop AUTHUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67581F5E2BC28E0900A531A3 /* EShop_AUTHUITests.swift */,
+				67581F602BC28E0900A531A3 /* EShop_AUTHUITestsLaunchTests.swift */,
+			);
+			path = "EShop AUTHUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67581F3E2BC28E0600A531A3 /* EShop AUTH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67581F642BC28E0900A531A3 /* Build configuration list for PBXNativeTarget "EShop AUTH" */;
+			buildPhases = (
+				67581F3B2BC28E0600A531A3 /* Sources */,
+				67581F3C2BC28E0600A531A3 /* Frameworks */,
+				67581F3D2BC28E0600A531A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EShop AUTH";
+			productName = "EShop AUTH";
+			productReference = 67581F3F2BC28E0600A531A3 /* EShop AUTH.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67581F4F2BC28E0900A531A3 /* EShop AUTHTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67581F672BC28E0900A531A3 /* Build configuration list for PBXNativeTarget "EShop AUTHTests" */;
+			buildPhases = (
+				67581F4C2BC28E0900A531A3 /* Sources */,
+				67581F4D2BC28E0900A531A3 /* Frameworks */,
+				67581F4E2BC28E0900A531A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67581F522BC28E0900A531A3 /* PBXTargetDependency */,
+			);
+			name = "EShop AUTHTests";
+			productName = "EShop AUTHTests";
+			productReference = 67581F502BC28E0900A531A3 /* EShop AUTHTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67581F592BC28E0900A531A3 /* EShop AUTHUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67581F6A2BC28E0900A531A3 /* Build configuration list for PBXNativeTarget "EShop AUTHUITests" */;
+			buildPhases = (
+				67581F562BC28E0900A531A3 /* Sources */,
+				67581F572BC28E0900A531A3 /* Frameworks */,
+				67581F582BC28E0900A531A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67581F5C2BC28E0900A531A3 /* PBXTargetDependency */,
+			);
+			name = "EShop AUTHUITests";
+			productName = "EShop AUTHUITests";
+			productReference = 67581F5A2BC28E0900A531A3 /* EShop AUTHUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67581F372BC28E0600A531A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					67581F3E2BC28E0600A531A3 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					67581F4F2BC28E0900A531A3 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 67581F3E2BC28E0600A531A3;
+					};
+					67581F592BC28E0900A531A3 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 67581F3E2BC28E0600A531A3;
+					};
+				};
+			};
+			buildConfigurationList = 67581F3A2BC28E0600A531A3 /* Build configuration list for PBXProject "EShop AUTH" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67581F362BC28E0600A531A3;
+			productRefGroup = 67581F402BC28E0600A531A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67581F3E2BC28E0600A531A3 /* EShop AUTH */,
+				67581F4F2BC28E0900A531A3 /* EShop AUTHTests */,
+				67581F592BC28E0900A531A3 /* EShop AUTHUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67581F3D2BC28E0600A531A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67581F4B2BC28E0800A531A3 /* Preview Assets.xcassets in Resources */,
+				67581F472BC28E0800A531A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67581F4E2BC28E0900A531A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67581F582BC28E0900A531A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67581F3B2BC28E0600A531A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67581F452BC28E0600A531A3 /* ContentView.swift in Sources */,
+				67581F432BC28E0600A531A3 /* EShop_AUTHApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67581F4C2BC28E0900A531A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67581F552BC28E0900A531A3 /* EShop_AUTHTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67581F562BC28E0900A531A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67581F612BC28E0900A531A3 /* EShop_AUTHUITestsLaunchTests.swift in Sources */,
+				67581F5F2BC28E0900A531A3 /* EShop_AUTHUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67581F522BC28E0900A531A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67581F3E2BC28E0600A531A3 /* EShop AUTH */;
+			targetProxy = 67581F512BC28E0900A531A3 /* PBXContainerItemProxy */;
+		};
+		67581F5C2BC28E0900A531A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67581F3E2BC28E0600A531A3 /* EShop AUTH */;
+			targetProxy = 67581F5B2BC28E0900A531A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		67581F622BC28E0900A531A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67581F632BC28E0900A531A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		67581F652BC28E0900A531A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "EShop AUTH/EShop_AUTH.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EShop AUTH/Preview Content\"";
+				DEVELOPMENT_TEAM = 89L8NAA624;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EShopAuth.EShop-AUTH";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67581F662BC28E0900A531A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "EShop AUTH/EShop_AUTH.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EShop AUTH/Preview Content\"";
+				DEVELOPMENT_TEAM = 89L8NAA624;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EShopAuth.EShop-AUTH";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67581F682BC28E0900A531A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89L8NAA624;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EShopAuth.EShop-AUTHTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EShop AUTH.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EShop AUTH";
+			};
+			name = Debug;
+		};
+		67581F692BC28E0900A531A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89L8NAA624;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EShopAuth.EShop-AUTHTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EShop AUTH.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EShop AUTH";
+			};
+			name = Release;
+		};
+		67581F6B2BC28E0900A531A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89L8NAA624;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EShopAuth.EShop-AUTHUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EShop AUTH";
+			};
+			name = Debug;
+		};
+		67581F6C2BC28E0900A531A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89L8NAA624;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EShopAuth.EShop-AUTHUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EShop AUTH";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67581F3A2BC28E0600A531A3 /* Build configuration list for PBXProject "EShop AUTH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67581F622BC28E0900A531A3 /* Debug */,
+				67581F632BC28E0900A531A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67581F642BC28E0900A531A3 /* Build configuration list for PBXNativeTarget "EShop AUTH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67581F652BC28E0900A531A3 /* Debug */,
+				67581F662BC28E0900A531A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67581F672BC28E0900A531A3 /* Build configuration list for PBXNativeTarget "EShop AUTHTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67581F682BC28E0900A531A3 /* Debug */,
+				67581F692BC28E0900A531A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67581F6A2BC28E0900A531A3 /* Build configuration list for PBXNativeTarget "EShop AUTHUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67581F6B2BC28E0900A531A3 /* Debug */,
+				67581F6C2BC28E0900A531A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67581F372BC28E0600A531A3 /* Project object */;
+}
