@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SmsEnterView: View {
-    @ObservedObject var userSession: UserSession
+    @EnvironmentObject var userSession: UserSession
     @State private var enteredCode: String = ""
     
     var body: some View {
@@ -36,8 +36,10 @@ struct SmsEnterView: View {
             switch result {
             case .success(let validationResponse):
                 print("Код соответствует, получен токен: \(validationResponse.accessToken)")
-                UserDefaults.standard.setValue(validationResponse.accessToken, forKey: "jsonwebtoken")
-//                UserDefaults.standard.setValue(validationResponse.user.id, forKey: "userid")
+                DispatchQueue.main.async {
+                    print("tested many times")
+                    self.userSession.authenticateUser(accessToken: validationResponse.accessToken)
+                }
             case .failure(let error):
                 print("Ошибка валидации: \(error.localizedDescription)")
             }

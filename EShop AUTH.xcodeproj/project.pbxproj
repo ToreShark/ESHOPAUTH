@@ -20,6 +20,8 @@
 		6766B0392BC2A6F5003AB8D0 /* SmsEnterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6766B0382BC2A6F5003AB8D0 /* SmsEnterView.swift */; };
 		6766B03B2BC2C6BE003AB8D0 /* validateCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6766B03A2BC2C6BE003AB8D0 /* validateCode.swift */; };
 		6766B03E2BC3115C003AB8D0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6766B03D2BC3115C003AB8D0 /* User.swift */; };
+		6766B0402BC3DB2F003AB8D0 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6766B03F2BC3DB2F003AB8D0 /* UserSession.swift */; };
+		6766B0422BC3E328003AB8D0 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6766B0412BC3E328003AB8D0 /* Welcome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		6766B0382BC2A6F5003AB8D0 /* SmsEnterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmsEnterView.swift; sourceTree = "<group>"; };
 		6766B03A2BC2C6BE003AB8D0 /* validateCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = validateCode.swift; sourceTree = "<group>"; };
 		6766B03D2BC3115C003AB8D0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6766B03F2BC3DB2F003AB8D0 /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
+		6766B0412BC3E328003AB8D0 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,7 @@
 				67581F462BC28E0800A531A3 /* Assets.xcassets */,
 				67581F482BC28E0800A531A3 /* EShop_AUTH.entitlements */,
 				67581F492BC28E0800A531A3 /* Preview Content */,
+				6766B0412BC3E328003AB8D0 /* Welcome.swift */,
 			);
 			path = "EShop AUTH";
 			sourceTree = "<group>";
@@ -159,6 +164,7 @@
 			children = (
 				6766B0302BC2A2CF003AB8D0 /* loginService.swift */,
 				6766B03A2BC2C6BE003AB8D0 /* validateCode.swift */,
+				6766B03F2BC3DB2F003AB8D0 /* UserSession.swift */,
 			);
 			path = services;
 			sourceTree = "<group>";
@@ -315,6 +321,8 @@
 				67581F452BC28E0600A531A3 /* ContentView.swift in Sources */,
 				6766B03E2BC3115C003AB8D0 /* User.swift in Sources */,
 				6766B0392BC2A6F5003AB8D0 /* SmsEnterView.swift in Sources */,
+				6766B0422BC3E328003AB8D0 /* Welcome.swift in Sources */,
+				6766B0402BC3DB2F003AB8D0 /* UserSession.swift in Sources */,
 				67581F432BC28E0600A531A3 /* EShop_AUTHApp.swift in Sources */,
 				6766B0312BC2A2CF003AB8D0 /* loginService.swift in Sources */,
 			);

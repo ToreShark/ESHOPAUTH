@@ -7,16 +7,12 @@
 
 import SwiftUI
 
-class UserSession: ObservableObject {
-    @Published var phoneNumber: String = ""
-}
-
 struct LoginView: View {
     @State private var phoneNumber: String = "+7"
     @State private var formattedPhoneNumber: String = "+7"
     private var formatter = PhoneNumberFormatter()
     @State private var navigateToSmsEnter = false
-    @StateObject var userSession = UserSession()
+    @EnvironmentObject var userSession: UserSession
     
     var body: some View {
         NavigationStack {
@@ -53,10 +49,18 @@ struct LoginView: View {
                         .background(Color.blue)
                         .cornerRadius(5)
                 }
+                Button("Выйти") {
+                    userSession.logout()
+                    navigateToSmsEnter = false
+                }
+                .foregroundColor(.red)
+                .padding()
+                .overlay(RoundedRectangle(cornerRadius: 5).stroke(Color.red, lineWidth: 1))
+                
             }
             .padding()
             .navigationDestination(isPresented: $navigateToSmsEnter) { // Используем navigationDestination
-                SmsEnterView(userSession: userSession) // Передаем userSession в SmsEnterView
+                SmsEnterView() // Передаем userSession в SmsEnterView
             }
         }
         
